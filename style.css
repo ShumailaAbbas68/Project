@@ -48,8 +48,12 @@
 
 .main-hero-section {
   display: flex;
+  justify-content:center;
   height: 70vh;
+  /* gap: 50px; */
+
 }
+
 .section-one {
   width: 50%;
   display: flex;
@@ -57,18 +61,20 @@
   justify-content: space-evenly;
 
 }
-.section-two image> {
+
+.section-two {
 
   width: 800px;
   display: flex;
-align-items: center;
-justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .section-one h2 {
   font-weight: 800;
   font-size: 60.73px;
 }
+
 .section-one p {
   font-weight: 500;
   font-size: 24px;
@@ -86,24 +92,16 @@ justify-content: center;
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
- gap: 18px;
+  gap: 18px;
 }
 
 
-.button-div{
+.button-div {
   display: flex;
   gap: 140px;
-  padding-top:180px;
+  padding-top: 180px;
 }
-
-
-
-
-
-
-
-
